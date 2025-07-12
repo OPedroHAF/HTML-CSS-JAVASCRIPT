@@ -1,0 +1,46 @@
+body{
+    background-color: plum;
+}
+h1{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 104px;
+}
+h2{
+    font-size: 48px;
+    font-style: italic;
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
+h3{
+    font-size: 38px;
+    font-style: oblique;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: green;
+    font-weight: normal;
+}
+h4{
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+}
+/*COMMENT*/
+p{
+    font-size: 20px;
+    text-align: left;
+    text-indent: 28px;
+    font-variant: small-caps;
+    
+}
+p a{
+    text-decoration: none;
+    font-variant: normal;
+}
+.highlight{
+    font-size: 156px;
+    font-weight: bold;
+}
+.highlight a{
+    color: orange;
+}
