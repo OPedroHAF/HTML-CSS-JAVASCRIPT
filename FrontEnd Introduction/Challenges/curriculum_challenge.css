@@ -9,7 +9,7 @@ h2{
     font-size: 32px;
 }
 .main_h1{
-    background-color: rgb(191, 208, 245);
+    background-color: rgb(164, 190, 248);
     text-align: center;
     padding: 5px 0;
     font-size: 46px;
@@ -18,9 +18,28 @@ h2{
 .main_p{
     text-align: center;
     font-weight: bold;
+    background-color: rgb(212, 225, 253);
+    margin-top: 0;
 }
 .title_color{
     color: #061761;
+}
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    padding: 16px;
+    color: black;
+}
+.menu a:hover{
+    background-color: rgb(236, 236, 236);
 }
 .level2_caption{
     background-color: #a3a3a3;
@@ -33,6 +52,9 @@ h2{
     color: blue;
     text-decoration: none;
 }
+.pe_a:hover{
+    text-decoration: underline;
+}
 .pe_a_uppercase{
     text-transform: uppercase;
 }
@@ -40,5 +62,8 @@ h2{
     text-transform: capitalize;
 }
 .supp_list{
-    padding-left:20px;
+    padding-left: 0;
+}
+.supp_list li{
+    list-style: inside;
 }
