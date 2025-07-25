@@ -1,35 +1,42 @@
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 body{
     background-color: #ccc;
     padding: 0 150px 0 150px;
 }
+h2{
+    font-size: 32px;
+}
 .main_h1{
     background-color: rgb(191, 208, 245);
     text-align: center;
     padding: 5px 0;
+    font-size: 46px;
+    margin-bottom: 0px;
 }
 .main_p{
     text-align: center;
+    font-weight: bold;
 }
 .title_color{
-    color: rgb(46, 22, 129);
+    color: #061761;
 }
 .level2_caption{
     background-color: #a3a3a3;
-    border-bottom: 2px solid rgb(46, 22, 129);
+    border-bottom: 2px solid #061761;
     padding: 8px;
     margin-top: 50px;
 }
-.pe_p{
+.pe_a{
     display: inline;
     color: blue;
+    text-decoration: none;
 }
-.pe_p_uppercase{
+.pe_a_uppercase{
     text-transform: uppercase;
 }
-.pe_p_capitalize{
+.pe_a_capitalize{
     text-transform: capitalize;
 }
 .supp_list{
