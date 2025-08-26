@@ -14,10 +14,9 @@ html{
     padding: 0;
 }
 body{
-    height: 100%;
     width: 90%;
     margin: auto;
-    padding: 0;
+    padding: 0 0 56px 0;
 }
 .nav-wrapper{
     display: flex;
@@ -55,4 +54,76 @@ body{
 }
 .hero img{
     width: 100%;
+}
+.main-container{
+    width: 80%;
+    margin: 120px auto 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:  #555;
+}
+.main-title{
+    font-size: 48px;
+    font-weight: 100;
+    margin: 0;
+}
+.main-presenting{
+    font-size: 24px;
+    line-height: 2;
+    margin: 48px 0;
+}
+.main-cards{
+    display: flex;
+    margin-top: 32px;
+    gap: 32px;
+}
+.card{
+    flex: 1 1 0;
+}
+.card h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.card p{
+    font-size: 20px;
+}
+.card img{
+    width: 80%;
+    border-radius: 3%;
+}
+.information{
+    background-image: url(../images/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: auto;
+    height: 900px;
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px;
+    margin: 100px auto 0;
+}
+.information-title{
+    font-size: 120px;
+    outline: 2px solid red;
+    margin: 0;
+}
+.information-text{
+    font-size: 32px;
+    outline: 2px solid green;
+    width: 50%;
+}
+footer{
+    background-color: rgba(0,0,0,.9);
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 100;
+    padding: 24px;
+    font-size: 24px;
 }
