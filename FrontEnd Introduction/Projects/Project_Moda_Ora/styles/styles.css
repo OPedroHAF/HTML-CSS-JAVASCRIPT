@@ -110,12 +110,10 @@ body{
 }
 .information-title{
     font-size: 120px;
-    outline: 2px solid red;
     margin: 0;
 }
 .information-text{
     font-size: 32px;
-    outline: 2px solid green;
     width: 50%;
 }
 footer{
