@@ -9,7 +9,9 @@
 <body>
     <header class="hero">
         <div class="hero-nav-container">
-            <img src="images/logoAprenser.png" alt="Logo Aprenser">
+            <div class="hero-logo">
+                <img src="images/logoAprenser.png" alt="Logo Aprenser">
+            </div>
             <nav class="hero-nav">
                 <ul class="hero-nav-list">
                     <li><a href="#">Courses</a></li>
@@ -19,8 +21,13 @@
             </nav>
         </div>
         <div class="hero-image">
-            <h1 class="hero-image-text">Knowledge is what molds our future</h1>
-            <a href="#" class="btn">Learn more</a>
+            <div class="hero-image-text">
+                <h1>Knowledge is what molds our future</h1>
+                <a href="#" class="hero-image-btn btn">Learn more</a>
+            </div>
+            <div class="hero-image-container">
+                <img src="images/HeroImage.png" alt="">
+            </div>
         </div>
     </header>
 
@@ -28,22 +35,34 @@
         <h1 class="courses-title">Main Courses</h1>
         <section class="courses-card-container">
             <article class="courses-card">
-                <img src="images/curso-design.png" alt="">
-                <h2>Web Design</h2>
-                <p>Web Design course is perfect for those looking forward to learn how to develop appealing and functional designs for websites and apps.</p>
+                <div class="courses-card-image">
+                    <img src="images/curso-design.png" alt="">
+                </div>
+                <div class="courses-card-text">
+                    <h2>Web Design</h2>
+                    <p>Web Design course is perfect for those looking forward to learn how to develop appealing and functional designs for websites and apps.</p>
+                </div>
             </article>
             <article class="courses-card">
-                <img src="images/curso-design-1.png" alt="">
-                <h2>Front End Developer</h2>
-                <p>Learn HTML, CSS and Javascript and develop rich and semantic interfaces for websites and apps.</p>
+                <div class="courses-card-image">
+                    <img src="images/curso-design-1.png" alt="">
+                </div>
+                <div class="courses-card-text">
+                    <h2>Front End Developer</h2>
+                    <p>Learn HTML, CSS and Javascript and develop rich and semantic interfaces for websites and apps.</p>
+                </div>
             </article>
             <article class="courses-card">
-                <img src="images/curso-design-2.png" alt="">
-                <h2>Back End Developer</h2>
-                <p>This course provides you with knowledge about one specific programming language of your choice, a data bank system and how HTTP protocol works.</p>
+                <div class="courses-card-image">
+                    <img src="images/curso-design-2.png" alt="">
+                </div>
+                <div class="courses-card-text">
+                    <h2>Back End Developer</h2>
+                    <p>This course provides you with knowledge about one specific programming language of your choice, a data bank system and how HTTP protocol works.</p>
+                </div>
             </article>
-            <a href="#" class="btn">Check other courses</a>
         </section>
+        <a href="#" class="courses-card-btn btn">Check other courses</a>
     </main>
     
     <div class="context-container">
